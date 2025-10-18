@@ -145,7 +145,7 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  padding: 5rem;
+  padding: 15rem 5rem 5rem 5rem;
   justify-content: center;
   align-items: center;
   background-image: url('./images/Hero Section.svg');
