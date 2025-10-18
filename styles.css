@@ -827,7 +827,7 @@
   }
 
   .hero-section{
-    padding: 18rem 1rem 2rem 1rem;
+    padding: 22rem 1rem 2rem 1rem;
   }
 
   .hero-header{
@@ -852,6 +852,11 @@
   .secondary-button{
     width: 100%;
     justify-content: center;
+  }
+
+  .stack-section{
+    height: auto;
+    padding: 2.5rem 1rem;
   }
 
   .section-title{
