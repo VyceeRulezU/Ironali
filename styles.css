@@ -704,15 +704,15 @@
   }
 
   .hero-header{
-    width: 70%;
+    width: 100%;
   }
 
   .hero-title{
-    font-size: 4rem;
+    font-size: 2rem;
   }
 
   .hero-description{
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   .stack-section{
@@ -744,6 +744,35 @@
 
   .case-study-card{
     width: 100%;
+  }
+
+   .study-1, .study-2, .study-3, .study-4, .study-5, .study-6, .study-7, .study-8, .study-9, .study-10{
+    padding: 0.5rem;
+
+  }
+
+   .card-title{
+    font-size: 0.8rem;
+  }
+
+  .card-header{
+    font-size: 1.2rem;
+  }
+
+  .card-description{
+    font-size: 1rem;
+  }
+
+  .white-card-title{
+    font-size: 0.8rem;
+  }
+
+  .white-card-header{
+    font-size: 1.2rem;
+  }
+
+  .white-card-description{
+    font-size: 1rem;
   }
 
 
@@ -860,11 +889,19 @@
 
   .stack-section{
     height: auto;
-    padding: 5rem 1rem 1rem 1rem;
+    padding: 10rem 1rem 1rem 1rem;
+  }
+
+  .stack-title{
+    margin-top: 2rem;
   }
 
   .section-title{
     font-size: 2rem;
+  }
+
+  .case-studies{
+    padding: 8rem 1rem 5rem 1rem;
   }
 
   .case-study-card{
@@ -902,6 +939,14 @@
 
   .section-subtitle{
     font-size: 1rem;
+  }
+
+  .projects-section{
+    padding: 5rem 1rem 5rem 1rem;
+  }
+
+  .cta-section{
+    padding: 5rem 1rem 5rem 1rem;
   }
 
   .cta-title{
