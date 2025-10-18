@@ -807,8 +807,8 @@
   }
 
   .logo{
-    width: 5rem;
-    height: 5rem;
+    width: 4rem;
+    height: 4rem;
   }
 
   .logo img{
@@ -854,6 +854,10 @@
     justify-content: center;
   }
 
+  .content{
+    width: 95%;
+  }
+
   .stack-section{
     height: auto;
     padding: 5rem 1rem 1rem 1rem;
@@ -861,6 +865,39 @@
 
   .section-title{
     font-size: 2rem;
+  }
+
+  .case-study-card{
+    height: 30rem;
+  }
+
+  .study-1, .study-2, .study-3, .study-4, .study-5, .study-6, .study-7, .study-8, .study-9, .study-10{
+    padding: 0.5rem;
+
+  }
+
+  .card-title{
+    font-size: 0.8rem;
+  }
+
+  .card-header{
+    font-size: 1.2rem;
+  }
+
+  .card-description{
+    font-size: 1rem;
+  }
+
+  .white-card-title{
+    font-size: 0.8rem;
+  }
+
+  .white-card-header{
+    font-size: 1.2rem;
+  }
+
+  .white-card-description{
+    font-size: 1rem;
   }
 
   .section-subtitle{
