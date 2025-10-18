@@ -17,7 +17,7 @@
         
         <div class="nav-bar">
 
-            <div class="content">
+            <div class="nav-content">
                 <div class="logo">
                     <img src="./images/Vycee_Logo-removebg-preview.png" alt="Ironali Logo">
                 </div>
@@ -36,14 +36,55 @@
                     </div>
                 </div>
             </div>
+
+            <div class="mobile-nav">
+                <div class="logo">
+                    <img src="./images/Vycee_Logo-removebg-preview.png" alt="Ironali Logo">
+                </div>
+
+                <div class="mobile-menu-icon" id="mobileMenuIcon">
+                    <img src="/images/menu-2.svg" alt="menu ">
+                </div>
+            </div>
+
+            <div class="mobile-dropdown">
+
+                <div class="close-icon" id="closeIcon">
+                    <img src="/images/close.svg" alt="close icon">
+                </div>
+
+                <div class="list-item">
+                    <a class="nav-link active-link" href="#home">Home</a>
+                </div>
+
+                <div class="list-item">
+                    <a class="nav-link" href="#case-studies">Case Study</a>
+                </div>
+
+                <div class="list-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </div>
+
+                <div class="cta-button">
+                        <a href="mailto:ironaliv@gmail.com" class="primary-button">Contact Me <span class="material-symbols-outlined">arrow_outward</span></a>
+                </div>
+
+                <div class="socials">
+                        <a href="#"><img src="./images/GitHub-Social icon.svg" alt="GitHub"></a>
+                        <a href="#"><img src="./images/LinkedIn-Social icon.svg" alt="LinkedIn"></a>
+                        <a href="#"><img src="./images/Dribble-Social icon.svg" alt="Behance"></a>
+                </div>
+
+            </div>
+
         </div>
 
-        <div class="hero-section section-fade" id="home">
+        <div class="hero-section " id="home">
 
             <div class="content">
                 <div class="hero-header">
-                    <p class="hero-subtitle">Product Designer & UX Engineer</p>
-                    <h1 class="hero-title">Crafting Seamless Digital Experiences</h1>
+                    <p class="hero-subtitle"><span class="material-symbols-outlined asterisk">asterisk</span>Product Designer & UX Engineer</p>
+                    <h1 class="hero-title">Crafting Seamless <br> <span class="work">Digital Experiences</span></h1>
                     <p class="hero-description">I’m a Product Designer & UX Engineer with expertise spanning UX strategy, interface design, and front-end development.<span class="grey-hero-description"> My workflow combines Figma and low-code tools (Webflow, Framer) with modern stacks like React, Next.js, and Tailwind CSS.</span></p>
 
                     <div class="button-wrapper">
@@ -57,10 +98,10 @@
 
         </div>
 
-        <div class="stack-section section-fade" id="stack">
+        <div class="stack-section " id="stack">
 
             <div class="content">
-                <h2 class="section-title">Stack</h2>
+                <h2 class="stack-title">Stack</h2>
 
                 <div class="stack-container">
 
@@ -165,18 +206,18 @@
 
         </div>
 
-        <div class="case-studies section-fade" id="casestudies">
+        <div class="case-studies " id="casestudies">
 
             <div class="content">
 
                 <div class="section-header">
-                    <h2 class="section-title">Featured <span class="work">Work</span></h2>
+                    <h2 class="section-title">Featured <span class="work-white">Work</span></h2>
                     <p class="section-subtitle">In-depth explorations of my design process and problem-solving approach.</p>
                 </div>
 
                 <div class="case-studies-container">
 
-                    <div class="case-study-card">
+                    <a class="case-study-card study-1" href="#">
                         
                         <div class="card-summary">
                             <p class="card-title">Case Study</p>
@@ -184,9 +225,9 @@
                             <p class="card-description">A comprehensive case study on improving the checkout experience for an e-commerce platform, focusing on user flow, accessibility, and conversion rates.</p>
                         </div>
 
-                    </div>
+                    </a>
 
-                    <div class="case-study-card">
+                    <a class="case-study-card study-2" href="#">
                         
                         <div class="card-summary">
                             <p class="card-title">Case Study</p>
@@ -194,9 +235,9 @@
                             <p class="card-description">A comprehensive case study on improving the checkout experience for an e-commerce platform, focusing on user flow, accessibility, and conversion rates.</p>
                         </div>
 
-                    </div>
+                    </a>
 
-                    <div class="case-study-card">
+                    <a class="case-study-card study-3" href="#">
                         
                         <div class="card-summary">
                             <p class="card-title">Case Study</p>
@@ -204,9 +245,9 @@
                             <p class="card-description">A comprehensive case study on improving the checkout experience for an e-commerce platform, focusing on user flow, accessibility, and conversion rates.</p>
                         </div>
 
-                    </div>
+                    </a>
 
-                    <div class="case-study-card">
+                    <a class="case-study-card study-4" href="#">
                         
                         <div class="card-summary">
                             <p class="card-title">Case Study</p>
@@ -214,7 +255,7 @@
                             <p class="card-description">A comprehensive case study on improving the checkout experience for an e-commerce platform, focusing on user flow, accessibility, and conversion rates.</p>
                         </div>
 
-                    </div>
+                    </a>
 
                 </div>
 
@@ -222,83 +263,73 @@
 
         </div>
 
-        <div class="projects-section section-fade" id="projects">
+        <div class="projects-section " id="projects">
 
             <div class="content">
 
                 <div class="section-header">
-                    <h2 class="section-title">Projects</h2>
+                    <h2 class="section-title projects-title">Projects</h2>
                     <p class="section-subtitle">A collection of selected work spanning product design, UX engineering, and web development across various industries and platforms.</p>
                 </div>
 
                 <div class="case-studies-container">
 
-                    <div class="case-study-card">
+                    <div class="case-study-card study-5">
                         
                         <div class="card-summary-white">
-                            <p class="card-title">Case Study</p>
-                            <p class="card-header">Redesigning E-Commerce Checkout for Better UX</p>
-                            <p class="card-description">A comprehensive case study on improving the checkout experience for an e-commerce platform, focusing on user flow, accessibility, and conversion rates.</p>
+                            <p class="white-card-title">Case Study</p>
+                            <p class="white-card-header">Redesigning E-Commerce Checkout for Better UX</p>
+                            <p class="white-card-description">A comprehensive case study on improving the checkout experience for an e-commerce platform, focusing on user flow, accessibility, and conversion rates.</p>
                         </div>
 
                     </div>
 
-                    <div class="case-study-card">
+                    <div class="case-study-card study-6">
                         
                         <div class="card-summary-white">
-                            <p class="card-title">Case Study</p>
-                            <p class="card-header">Redesigning E-Commerce Checkout for Better UX</p>
-                            <p class="card-description">A comprehensive case study on improving the checkout experience for an e-commerce platform, focusing on user flow, accessibility, and conversion rates.</p>
+                            <p class="white-card-title">Case Study</p>
+                            <p class="white-card-header">Redesigning E-Commerce Checkout for Better UX</p>
+                            <p class="white-card-description">A comprehensive case study on improving the checkout experience for an e-commerce platform, focusing on user flow, accessibility, and conversion rates.</p>
                         </div>
 
                     </div>
 
-                    <div class="case-study-card">
+                    <div class="case-study-card study-7">
                         
                         <div class="card-summary-white">
-                            <p class="card-title">Case Study</p>
-                            <p class="card-header">Redesigning E-Commerce Checkout for Better UX</p>
-                            <p class="card-description">A comprehensive case study on improving the checkout experience for an e-commerce platform, focusing on user flow, accessibility, and conversion rates.</p>
+                            <p class="white-card-title">Case Study</p>
+                            <p class="white-card-header">Redesigning E-Commerce Checkout for Better UX</p>
+                            <p class="white-card-description">A comprehensive case study on improving the checkout experience for an e-commerce platform, focusing on user flow, accessibility, and conversion rates.</p>
                         </div>
 
                     </div>
 
-                    <div class="case-study-card">
+                    <div class="case-study-card study-8">
                         
                         <div class="card-summary-white">
-                            <p class="card-title">Case Study</p>
-                            <p class="card-header">Redesigning E-Commerce Checkout for Better UX</p>
-                            <p class="card-description">A comprehensive case study on improving the checkout experience for an e-commerce platform, focusing on user flow, accessibility, and conversion rates.</p>
+                            <p class="white-card-title">Case Study</p>
+                            <p class="white-card-header">Redesigning E-Commerce Checkout for Better UX</p>
+                            <p class="white-card-description">A comprehensive case study on improving the checkout experience for an e-commerce platform, focusing on user flow, accessibility, and conversion rates.</p>
                         </div>
 
                     </div>
 
-                    <div class="case-study-card">
+                    <div class="case-study-card study-9">
                         
                         <div class="card-summary-white">
-                            <p class="card-title">Case Study</p>
-                            <p class="card-header">Redesigning E-Commerce Checkout for Better UX</p>
-                            <p class="card-description">A comprehensive case study on improving the checkout experience for an e-commerce platform, focusing on user flow, accessibility, and conversion rates.</p>
+                            <p class="white-card-title">Case Study</p>
+                            <p class="white-card-header">Redesigning E-Commerce Checkout for Better UX</p>
+                            <p class="white-card-description">A comprehensive case study on improving the checkout experience for an e-commerce platform, focusing on user flow, accessibility, and conversion rates.</p>
                         </div>
 
                     </div>
 
-                    <div class="case-study-card">
+                    <div class="case-study-card study-10">
                         
                         <div class="card-summary-white">
-                            <p class="card-title">Case Study</p>
-                            <p class="card-header">Redesigning E-Commerce Checkout for Better UX</p>
-                            <p class="card-description">A comprehensive case study on improving the checkout experience for an e-commerce platform, focusing on user flow, accessibility, and conversion rates.</p>
-                        </div>
-
-                    </div>
-
-                    <div class="case-study-card">
-                        
-                        <div class="card-summary-white">
-                            <p class="card-title">Case Study</p>
-                            <p class="card-header">Redesigning E-Commerce Checkout for Better UX</p>
-                            <p class="card-description">A comprehensive case study on improving the checkout experience for an e-commerce platform, focusing on user flow, accessibility, and conversion rates.</p>
+                            <p class="white-card-title">Case Study</p>
+                            <p class="white-card-header">Redesigning E-Commerce Checkout for Better UX</p>
+                            <p class="white-card-description">A comprehensive case study on improving the checkout experience for an e-commerce platform, focusing on user flow, accessibility, and conversion rates.</p>
                         </div>
 
                     </div>
@@ -309,17 +340,23 @@
 
         </div>
 
-        <div class="cta-section section-fade" id="contact">
+        <div class="cta-section " id="contact">
 
-            <div class="contact">
-                <h2 class="cta-title">Let's <span class="work">Work Together</span></h2>
-                <p class="cta-description">I design intuitive user experiences and build scalable digital products that solve real problems. From concept to implementation, I bridge design and development to create meaningful solutions.</p>
-                <a href="mailto:ironaliv@gmail.com" class="primary-button">Contact Me <span class="material-symbols-outlined">arrow_outward</span></a>
+            <div class="content">
+
+                <div class="cta-content">
+                    <h2 class="cta-title">Let's <span class="work">Work Together</span></h2>
+                    <p class="cta-description">I design intuitive user experiences and build scalable digital products that solve real problems. From concept to implementation, I bridge design and development to create meaningful solutions.</p>
+                    <div class="cta-button">
+                        <a href="mailto:ironaliv@gmail.com" class="primary-button">Contact Me <span class="material-symbols-outlined">arrow_outward</span></a>
+                    </div>
+                </div>
+
             </div>
 
         </div>
 
-        <div class="footer-section section-fade">
+        <div class="footer-section ">
 
             <div class="content">
 
@@ -333,7 +370,7 @@
 
                         <p class="footer-title">Product Designer & UX Engineer</p>
 
-                        <p class="footer-summary">Crafting exceptional digital experiences through design and code.</p>
+                        <p class="footer-description">Crafting exceptional digital experiences through design and code.</p>
                     </div>
 
                     <div class="footer-link-group">
@@ -356,7 +393,7 @@
                         <p class="footer-link-title">Connect</p>
                         
                         <div class="footer-links">
-                            <a class="footer-link" href="#">Email</a>
+                            <a class="footer-link" href="mailto:ironaliv@gmail.com">Email</a>
                             <a class="footer-link" href="#">LinkedIn</a>
                             <a class="footer-link" href="#">GitHub</a>
                         </div>
@@ -369,7 +406,7 @@
                     <p class="all-rights">© 2025 All rights reserved.</p>
 
                     <p class="designed">Designed & Developed with Precision</p>
-                    
+
                 </div>
 
             </div>
