@@ -541,7 +541,7 @@
 
 
 .cta-section{
-  width: 90%;
+  width: 100%;
   height: 50vh;
   display: flex;
   flex-direction: column;
@@ -551,7 +551,7 @@
 }
 
 .cta-content{
-  width: 100%;
+  width: 90%;
   display: flex;
   flex-direction: column;
   row-gap: 2.5rem;
@@ -689,8 +689,141 @@
    ============================================================================================================================
    ============================================================================================================================
    ============================================================================================================================ */
+@media (min-width: 1000px) and (max-width: 1700px) {
 
-@media (max-width: 1024px) {
+  .nav-bar{
+    padding: 1.2rem 2rem;
+  }
+
+  .nav-content{
+    width: 100%;
+  }
+
+  .hero-section{
+    padding: 2rem;
+  }
+
+  .hero-header{
+    width: 60%;
+  }
+
+  .hero-title{
+    font-size: 3rem;
+  }
+
+  .hero-description{
+    font-size: 1rem;
+  }
+
+  .stack-section{
+    height: fit-content;
+    padding: 2rem;
+  }
+
+  .stack-container{
+    width: 100%;
+    flex-direction: row;
+    column-gap: 3rem;
+  }
+
+  .stack-group{
+    width: 100%;
+  }
+
+  .case-studies{
+    padding: 2rem;
+  }
+
+  .section-header{
+    width: 60%;
+  }
+
+  .case-studies-container{
+    flex: wrap;
+    gap: 1rem;
+    flex-direction: row;
+  }
+
+  .case-study-card{
+    width: 100%;
+  }
+
+   .study-1, .study-2, .study-3, .study-4, .study-5, .study-6, .study-7, .study-8, .study-9, .study-10{
+    padding: 0.5rem;
+
+  }
+
+   .card-title{
+    font-size: 0.8rem;
+  }
+
+  .card-header{
+    font-size: 1.2rem;
+  }
+
+  .card-description{
+    font-size: 1rem;
+  }
+
+  .white-card-title{
+    font-size: 0.8rem;
+  }
+
+  .white-card-header{
+    font-size: 1.2rem;
+  }
+
+  .white-card-description{
+    font-size: 1rem;
+  }
+
+
+  .projects-section{
+    padding: 2rem;
+  }
+
+  .cta-section{
+    height: fit-content;
+    padding: 2rem;
+  }
+
+  .cta-content{
+    width: 100%;
+    padding: 2rem;
+  }
+
+  .cta-description{
+    width: 100%;
+  }
+
+  .footer-section{
+    height: fit-content;
+    padding: 2rem;
+  }
+
+  .footer-content{
+    flex-direction: row;
+  }
+
+  .footer-summary{
+    width: 100%;
+  }
+
+  .footer-description{
+    width: 100%;
+  }
+
+  .footer-link-group{
+    width: 100%;
+  }
+
+
+
+}
+
+
+   @media (max-width: 1000px) {
+  
 
   .nav-bar{
     padding: 1.2rem 2rem;
@@ -823,6 +956,15 @@
 }
 
 @media (max-width: 768px) {
+
+  body{
+    overflow-x: hidden;
+  }
+
+  .body-wrapper{
+    width: 100%;
+    overflow: hidden;
+  }
 
   .nav-content{
     display: none;
