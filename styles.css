@@ -541,11 +541,11 @@
 
 
 .cta-section{
-  width: 100%;
+  width: 90%;
   height: 50vh;
   display: flex;
   flex-direction: column;
-  padding: 15rem;
+  padding: 10rem;
   justify-content: center;
   align-items: center;
 }
