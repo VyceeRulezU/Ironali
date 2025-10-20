@@ -562,6 +562,7 @@
   border-radius: 1.5rem;
   border: solid 1px #DDDDDD;
   align-self: center;
+  justify-self: center;
 }
 
 .cta-title{
