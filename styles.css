@@ -557,6 +557,12 @@
   padding: 2rem;
 }
 
+.study-11{
+  background-image: url('./images/Exam\ Management\ Mock.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2rem;
+}
 
 .cta-section{
   width: 100%;
