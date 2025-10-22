@@ -243,7 +243,7 @@
   border-radius: 10rem;
   font-size: 1.2rem;
   font-weight: 300;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); /* soft static shadow */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* soft static shadow */
   transition: all 0.3s ease;
 }
 
