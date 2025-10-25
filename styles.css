@@ -564,6 +564,27 @@
   padding: 2rem;
 }
 
+.study-12{
+  background-image: url('./images/Ticket.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2rem;
+}
+
+.study-13{
+  background-image: url('./images/Cart\ Managment\ Mock.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2rem;
+}
+
+.study-14{
+  background-image: url('./images/Invoice\ Management\ Mock.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2rem;
+}
+
 .cta-section{
   width: 100%;
   height: 50vh;
