@@ -585,6 +585,13 @@
   padding: 2rem;
 }
 
+.study-15{
+  background-image: url('./images/White\ Login\ Test.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2rem;
+}
+
 .cta-section{
   width: 100%;
   height: 50vh;
