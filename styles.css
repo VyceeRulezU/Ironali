@@ -586,7 +586,7 @@
 }
 
 .study-15{
-  background-image: url('./images/White\ Login\ Test.png');
+  background-image: url('./images/Login\ Mock\ 2.png');
   background-repeat: no-repeat;
   background-size: cover;
   padding: 2rem;
@@ -603,7 +603,7 @@
 }
 
 .cta-content{
-  width: 90%;
+  width: 80%;
   display: flex;
   flex-direction: column;
   row-gap: 2.5rem;
