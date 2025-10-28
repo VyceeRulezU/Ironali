@@ -646,12 +646,11 @@
   width: 100%;
   display: flex;
   flex-direction: row;
-  column-gap: 5rem;
-  row-gap: 2rem;
+  justify-content: space-between;
 }
 
 .footer-summary{
-  width: 40%;
+  max-width: 30%;
   display: flex;
   flex-direction: column;
   row-gap: 1.5rem;
@@ -681,7 +680,7 @@
 }
 
 .footer-link-group{
-  width: 40%;
+  max-width: fit-content;
   display: flex;
   flex-direction: column;
   row-gap: 2rem;
