@@ -1100,10 +1100,10 @@
   }
 
   .case-study-card{
-    height: 30rem;
+    min-height: 30rem;
   }
 
-  .study-1, .study-2, .study-3, .study-4, .study-5, .study-6, .study-7, .study-8, .study-9, .study-10{
+  .study-1, .study-2, .study-3, .study-4, .study-5, .study-6, .study-7, .study-8, .study-9, .study-10, .study-11, .study-12, .study-13, .study-14, .study-15{
     padding: 0.5rem;
 
   }
@@ -1144,6 +1144,10 @@
     padding: 5rem 1rem 5rem 1rem;
   }
 
+  .cta-content{
+    min-width: 380px;
+  }
+
   .cta-title{
     font-size: 2rem;
   }
@@ -1155,6 +1159,14 @@
   .footer-logo{
   width: 8rem;
   height: 8rem;
+}
+
+.footer-content{
+  row-gap: 2rem;
+}
+
+.footer-content, .footer-summary, .footer-title, .footer-description{
+  min-width: 100%;
 }
 
   .copy-right{
